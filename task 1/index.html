@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>1 task</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body class="body">
+    <div class="container">
+      <div class="timer">
+        <div class="timer__final_time none">
+          <span> Время истекло</span>
+        </div>
+        <section class="table"></section>
+        <section class="timer__numbers">
+          <div class="timer__block-numbers">
+            <div class="time time__hour">0</div>
+          </div>
+          <div class="colon">:</div>
+          <div class="timer__block-numbers">
+            <div class="time time__minute">0</div>
+          </div>
+          <div class="colon">:</div>
+          <div class="timer__block-numbers">
+            <div class="time time__second">0</div>
+          </div>
+        </section>
+        <section class="button__block">
+          <button class="button button__start">Start</button>
+          <div class="input__block">
+            <input type="time" step="2" name="time" class="input__number" />
+          </div>
+          <button class="button button__stop">Stop</button>
+          <button class="button button__pause none">Pause</button>
+        </section>
+      </div>
+    </div>
+    <!-- <input type="text" name="time" id="time" />
+    <button id="button">Запустить</button>
+    <div id="timer"></div> -->
+
+    <script src="./index.js"></script>
+  </body>
+</html>
+
+<!-- <body>
+    <input placeholder="Seconds" type="text" />
+
+    <button>Start</button>
+
+    <br />
+    <br />
+
+    <span>hh:mm:ss</span>
+
+    <script src="./index.js"></script>
+  </body> -->
