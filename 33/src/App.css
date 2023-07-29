@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+    /* fonts */
+    --font-main: "Montserrat", sans-serif;
+  
+    /* colors */
+    --dark: #242b33;
+  }
+  
+  body {
+    font-family: var(--font-main);
+    background-color: var(--dark);
+    color: var(--white);
+    font-size: 16px;
+  }
+  
+  a {
+    color: var(--white);
+    transition: color 0.2s ease-in;
+    text-decoration: none;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  
+  a:hover {
+    color: var(--accent);
+  }
+  
+  .container {
+    margin-top: 150px;
+    width: 50%; 
+    height: 100%;
+    margin: 0 auto;
+  }
+  
+  .none {
+    display: none !important;
+  }
+  
+  .no-scroll {
+    overflow-y: hidden;
+  }
+
+/* ----------------------------------------------------------------- */
+
+
+
+ .button__stop-red {
+  background-color: red;
+  outline: 2px solid red;
+}
+
+.button__pause {
+  background-color: orange;
+  outline: 2px solid orange;
+  opacity: 0.6;
+}
+
+ .button {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  outline-offset: 2px;
+  cursor: pointer;
+}
+.button:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+.button__start {
+  background-color: green;
+  outline: 2px solid green;
+}
+
+.button__stop {
+  background-color: gray;
+  outline: 2px solid gray;
+  opacity: 0.6;
+}
+
+.button__block {
+  margin-top: 100px;
+}
+
+.timer {
+  margin: 170px auto;
+}
+
+.timer__final_time {
+  text-align: center;
+  padding-bottom: 30px;
+  font-size: 40px;
+  color: aliceblue;
+}
+
+.timer__numbers, .button__block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.timer__block {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.colon {
+  color: aliceblue;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.time {
+  border-radius: 20px;
+  height: 120px;
+  width: 175px;
+  font-size: 100px;
+  background-color: aliceblue;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.input__number {
+  width: 200px;
+  text-align: center;
+  border-radius: 5px;
+}
+
